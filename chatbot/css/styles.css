@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	background :url(backgroung.jpg);
+	background-size: cover;
+	background-position: cover;
+	background-blend-mode: screen;
+	font-family: sans-serif;
+}
+
+.login {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 1000px;
+  box-sizing: border-box;
+  background: rgba( 0, 0, 0, 0.8);
+  border-radius: 0.625rem;
+  color: #fff;
+  padding: 70px 30px;
+  float: left;
+}
+
+
+.cute{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.login h2{
+	  	margin: 0 0 1.875rem;
+  		padding: 0 0 20px;
+  		color: #fff;
+		text-align : center;
+		font-size: 30px;
+}
+
+.box .inputBox {
+  position: absolute;
+
+}
+.box{
+  height: auto;
+}
+
+.box .inputBox input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label,
+.box .inputBox input:not([value=""]) ~ label {
+  top: -1.125rem;
+  left: 0;
+  color: #03a9f4;
+  font-size: 0.75rem;
+}
+
+.box input[type="submit"]  {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #03a9f4;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #1cb1f5;
+}
+button{
+ background-color:  #1cb1f5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
